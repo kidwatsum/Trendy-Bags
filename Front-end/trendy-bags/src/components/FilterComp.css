@@ -1,0 +1,13 @@
+.filter-main{
+    display: flex;
+    width: 800px;
+    height: 50px;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    padding-left: 800px;
+    padding-top: 20px;
+}
+.filter-main h3{
+    color: var(--text-color);
+}

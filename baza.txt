@@ -1,0 +1,23 @@
+here are all the entities how should i proceed :-- Users
+User (userId, username, email, password, role) -- role can be 'admin' or 'customer'
+
+-- Categories
+Category (categoryId, category_name)
+
+-- Products
+Product (id, name, categoryId*, price, image_url, description, created_by*) -- FK to User (Admin)
+
+-- Carts
+Cart (cart_id, user_id*) -- One cart per user
+
+-- Cart Items (to store multiple items in a cart)
+CartItem (cart_id*, product_id*, quantity)
+
+-- Orders (to handle purchases)
+Order (order_id, user_id*, total_price, status, created_at)
+
+-- Order Items (tracks purchased products)
+OrderItem (order_id*, product_id*, quantity, price_at_purchase)
+
+-- Admin Log (optional)
+AdminAction (action_id, user_id*, product_id*, action_type, timestamp)

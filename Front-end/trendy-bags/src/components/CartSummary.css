@@ -1,0 +1,25 @@
+.summary-main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background: var(--soft-background-off-white);
+    border: 1px solid black;
+    align-items: center;
+}
+.summary-text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px; 
+}
+#checkout-btn{
+    width: 400px !important;
+    height: 50px !important;
+    background: var(--secondary-btn-coral-red) !important;
+    color: var(--soft-background-off-white) !important;
+    border-radius: 15px;
+}

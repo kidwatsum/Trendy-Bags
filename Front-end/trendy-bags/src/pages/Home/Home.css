@@ -1,0 +1,8 @@
+
+.home-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 200px;
+    gap: 40px;
+    justify-content: center;
+}

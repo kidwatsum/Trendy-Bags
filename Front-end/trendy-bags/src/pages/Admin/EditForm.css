@@ -1,0 +1,81 @@
+.edit-form {
+    background-color: var(--soft-background-off-white);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1rem;
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--text-color);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    border-color: var(--primary-dark-red);
+    outline: none;
+}
+
+.save-button {
+    background-color: var(--primary-dark-red);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.save-button:hover {
+    background-color: var(--accent-color);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: var(--primary-dark-red);
+    box-shadow: 0 0 5px rgba(141, 2, 31, 0.4);
+}
+
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid var(--text-color);
+}
+
+input::placeholder {
+    color: var(--text-color);
+    font-style: italic;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    background-color: #fff;
+}

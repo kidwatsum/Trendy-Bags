@@ -1,0 +1,71 @@
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-window {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-window img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.MuiTextField-root {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.register-div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-div h5 {
+    font-size: 14px;
+    color: #555;
+}
+
+#register-btn-link {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#register-btn-link:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #1565c0;
+}
+
+.login-btn:active {
+    background-color: #0d47a1;
+}

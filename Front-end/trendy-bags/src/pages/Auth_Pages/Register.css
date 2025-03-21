@@ -1,0 +1,42 @@
+.register-main {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+}
+
+.register-window {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.register-btn {
+    margin-top: 20px; 
+}
+
+.register-div {
+    margin-top: 10px;
+}
+
+.register-div h5 {
+    font-size: 16px;
+    color: #333;
+}
+
+#login-btn-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#login-btn-link:hover {
+    text-decoration: underline;
+}

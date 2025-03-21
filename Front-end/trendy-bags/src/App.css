@@ -1,0 +1,14 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-dark-red:#8D021F;
+  --secondary-btn-coral-red:#FF5858;
+  --soft-background-off-white:#F8F5F2;
+  --text-color:#2E2E2E;
+  --accent-color:#F4A261;
+  --premium-color:#FFD166;
+  --balanced-green:#3A7D44;
+}
